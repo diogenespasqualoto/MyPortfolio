@@ -13,7 +13,10 @@
 .btn {
   cursor: pointer;
 }
-
+btn:hover{
+  opacity: 0.4;
+  cursor: not-allowed;
+}
 :root {
   --font-primary: "Baloo da 2", serif;
   --font-secundary: "josefin slab", serif;

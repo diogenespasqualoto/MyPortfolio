@@ -14,6 +14,11 @@
   cursor: pointer;
 }
 
+btn:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 :root {
   --font-primary: "Baloo da 2", serif;
   --font-secundary: "josefin slab", serif;
@@ -941,7 +946,7 @@ footer {
     border: 2px solid #9400d3;
     display: block;
     margin: auto;
-    margin-top:50px ;
+    margin-top: 50px;
     -webkit-animation: floating 2s ease-in-out infinite;
     animation: floating 2s ease-in-out infinite;
   }
