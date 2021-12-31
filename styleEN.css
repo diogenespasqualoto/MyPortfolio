@@ -13,10 +13,12 @@
 .btn {
   cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
 :root {
   --font-primary: "Baloo da 2", serif;
   --font-secundary: "josefin slab", serif;
@@ -830,7 +832,7 @@ footer {
 
 
   .profile .photo {
-    width: 230px;
+    width: 130px;
   }
 
   .conhecimentos {
@@ -926,10 +928,10 @@ footer {
   }
 
   .banner h1 {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     text-align: center;
     line-height: 55px;
-    padding-top: 70px;
+    padding-top: 20px;
   }
 
   .banner p {
@@ -939,19 +941,21 @@ footer {
 
   .banner button {
     font-size: 1rem;
-    margin-left: 25%;
+    margin:auto;
+    display:flex;
   }
 
   .profile .photo {
-    width: 230px;
+    width: 170px;
     border-radius: 50%;
     border: 2px solid #9400d3;
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     -webkit-animation: floating 2s ease-in-out infinite;
     animation: floating 2s ease-in-out infinite;
   }
+
 
   .sidebar {
     width: 11rem;

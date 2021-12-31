@@ -317,6 +317,8 @@ header {
   grid-row: 5 / -1;
 }
 
+
+
 .sessao-conhecimentos {
   background-color: rgb(245, 245, 251);
   opacity: .9;
@@ -718,7 +720,11 @@ footer {
 
 
 
-@media screen and (max-width:1215px) {
+@media screen and (max-width:1060px) {
+
+  .profile .photo {
+    width: 130px;
+  }
 
   .conhecimentos {
     display: grid;
@@ -794,6 +800,12 @@ footer {
     width: 80%;
     margin-bottom: 1rem;
     ;
+  }
+
+
+  .banner h1 {
+    font-size: 4rem;
+    text-align: center;
   }
 
 
@@ -924,10 +936,10 @@ footer {
   }
 
   .banner h1 {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     text-align: center;
     line-height: 55px;
-    padding-top: 70px;
+    padding-top: 20px;
   }
 
   .banner p {
@@ -937,16 +949,18 @@ footer {
 
   .banner button {
     font-size: 1rem;
-    margin-left: 25%;
+    margin:auto;
+    display:flex;
   }
 
+
   .profile .photo {
-    width: 230px;
+    width: 170px;
     border-radius: 50%;
     border: 2px solid #9400d3;
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     -webkit-animation: floating 2s ease-in-out infinite;
     animation: floating 2s ease-in-out infinite;
   }
