@@ -3,10 +3,12 @@ body {
   /* Typography Declarations */
   color: #222222;
   font-size: 1em;
-  background-image: url('../images/backgroundimg.jpg');
+  background-image: url('skull-hacking-time-minimal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 .content-footer,
 .masthead-heading,
 .masthead-intro {
